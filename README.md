@@ -21,7 +21,7 @@ Given ~6,400 students with features like gaming hours, study hours, sleep, atten
 
 Predictions land within ~4.5 grade points on average. Mapped to letter grades, the model gets the exact letter right ~73% of the time, is essentially always within one letter grade, and almost never misses a failing student. **Takeaway: gaming lifestyle is a genuinely strong predictor of academic performance.**
 
-![Predicted vs actual grade](figures/predicted_vs_actual_grade.png)
+![Predicted vs actual grade](Figures/predicted_vs_actual_grade.png)
 
 ---
 
@@ -44,7 +44,7 @@ Classify whether a patient has diabetes using 8 clinical measurements (Pima Indi
 
 Held-out test: ~72% accuracy, AUC ≈ 0.82. Glucose dominates feature importance; Insulin/SkinThickness contribute little due to missingness. For a real screening tool, lowering the decision threshold from 0.5 to ~0.35–0.40 trades precision for the recall needed to avoid missing diabetic patients.
 
-![ROC curves](figures/diabetes_roc_curves.png)
+![ROC curves](Figures/diabetes_roc_curves.png)
 
 ---
 
